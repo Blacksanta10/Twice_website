@@ -1,0 +1,227 @@
+<!DOCTYPE html><!--This page will state disco with lots of pictures-->
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--reponse in mobile devices-->
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="DIsco.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+      <!--NavBar-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">TWICE</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Profiles.html">Members</a></li>
+                <li><a href="DIsco.html">Discography</a></li>
+                <li><a href="Tour.html">Tours</a></li>
+                <li><a href="Awards.html">Awards</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <!--NEW CARDS FOR DISCOGRAPHY-->
+      <div class="main-disco">
+        <!--The story begins album-->
+        <div class="album-card" onclick="toggleDetails('album1_details')">
+          <img src="Images/Albums/Twice_group.png" alt="The Story Begins" class="album-cover">
+          <div class="album-info">
+            <h3>The Story Begins</h3>
+            <p>2015-10-15</p>
+          </div>
+          <div class="album-details" id="album1_details">
+            
+            <h4>TRACK LIST</h4>
+            <ol>
+              <li>Like OOH-AHH</li>
+              <li>Do It Again</li>
+              <li>Going Crazy</li>
+              <li>Truth</li>
+              <li>Candyboy</li>
+              <li>Like a Fool</li>
+            </ol>
+            <p>Additional information about The Story Begins...</p>
+          </div>
+        </div>
+          <!--Page two album-->
+          <div class="album-card" onclick="toggleDetails('album2_details')">
+            <img src="Images/Albums/Page-Two-second mini album.jpg" alt="Page Two" class="album-cover">
+            <div class="album-info">
+              <h3>Page Two</h3>
+              <p>2016-4-25</p>
+            </div>
+            <div class="album-details" id="album2_details">
+              
+              <h4>TRACK LIST</h4>
+              <ol>
+                <li>Cheer up</li>
+                <li>Precious Love</li>
+                <li>Touchdown</li>
+                <li>Tuk Tok</li>
+                <li>Woohoo</li>
+                <li>My Headphones on</li>
+                <li>I'm gonna be a star(CD)</li>
+              </ol>
+
+              <p>Additional information about Page Two...</p>
+            </div>
+          </div>
+            <!--TWICEcoaster: Lane 1 album-->
+          <div class="album-card" onclick="toggleDetails('album3_details')">
+            <img src="Images/Albums/TWICEcoaster-Lane-1-800x800.jpg" alt="TWICEcoaster: Lane 1" class="album-cover">
+            <div class="album-info">
+              <h3>TWICEcoaster: Lane 1</h3>
+              <p>2016-10-24</p>
+            </div>
+            <div class="album-details" id="album3_details">
+              
+              <h4>TRACK LIST</h4>
+              <ol>
+                <li>TT</li>
+                <li>1 to 10</li>
+                <li>Ponytail</li>
+                <li>Jelly Jelly</li>
+                <li>Pit-A-Pat</li>
+                <li>Next Page</li>
+                <li>One in a Million</li>
+              </ol>
+              <p>Additional information about the TWICEcoaster...</p>
+            </div>
+          </div>
+            <!--TWICEcoaster: Lane 2 album-->
+          <div class="album-card" onclick="toggleDetails('album4_details')">
+            <img src="Images/Albums/TWICEcoaster-Lane-2-800x800.jpg" alt="TWICEcoaster: Lane 2" class="album-cover">
+            <div class="album-info">
+              <h3>TWICEcoaster: Lane 2</h3>
+              <p>2017-2-20</p>
+            </div>
+            <div class="album-details" id="album4_details">
+              
+              <h4>TRACK LIST</h4>
+              <ol>
+                <li>Knock Knock</li>
+                <li>녹아요</li>
+                <li>TT</li>
+                <li>1 to 10</li>
+                <li>PonyTail</li>
+                <li>Jelly Jelly</li>
+                <li>Pit-A-Pat</li>
+                <li>Next page</li>
+                <li>One in a Million</li>
+                <li>TT(TAK remix)</li>
+              </ol>
+              
+            </div>
+          </div>
+            <!--TWICE: signal album-->
+          <div class="album-card" onclick="toggleDetails('album5_details')">
+            <img src="Images/Albums/Signal-800x800.jpg" alt="Page Two" class="album-cover">
+            <div class="album-info">
+              <h3>TWICE: Signal</h3>
+              <p>2017-5-15</p>
+            </div>
+            <div class="album-details" id="album5_details">
+              
+              <h4>TRACK LIST</h4>
+              <ol>
+                <li>Signal</li>
+                <li>하루에 세 번</li>
+                <li>Only 너</li>
+                <li>Hold Me Tight</li>
+                <li>Eye Eye Eyes</li>
+                <li>Someone Like Me</li>
+              </ol>
+            </div>
+          </div>
+          <!--TWICEtagram album-->
+          <div class="album-card" onclick="toggleDetails('album6_details')">
+            <img src="Images/Albums/twicetagram-800x800.jpg" alt="TWICEtagram" class="album-cover">
+            <div class="album-info">
+              <h3>TWICEtagram</h3>
+              <p>2017-10-30</p>
+            </div>
+            <div class="album-details" id="album6_details">
+              
+              <h4>TRACK LIST</h4>
+              <ol>
+                <li>Likey</li>
+                <li>Turtle</li>
+                <li>Missing you</li>
+                <li>Wow</li>
+                <li>FFW</li>
+                <li>Ding Dong</li>
+                <li>Signal</li>
+                <li>24/7</li>
+                <li>Look At Me</li>
+                <li>Rollin'</li>
+                <li>LoveLine</li>
+                <li>Don't Give Up</li>
+                <li>You In My Heart</li>
+                <li>Jaljayo Good Night</li>
+              </ol>
+              <p>Additional information about the TWICEtagram...</p>
+            </div>
+          </div>
+
+      </section>
+
+          <script src="DIsco.js"></script>
+
+        
+         
+
+      <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+      <div class="container py-4">
+
+          <div class="row gy-4 gx-5">
+              <div class="col-lg-4 col-md-10">
+                  <h5 class="h1 text-white">TWICEpop</h5>
+                  <p class="small text-muted">We provide information about the K-pop group TWICE.</p>
+                  <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">TWICEpop</a></p>
+              </div>
+              <div class="col-lg-2 col-md-10"> <!--TWICE social accounts Korean-->
+                  <h5 class="text-white mb-3">Korean Socials</h5>
+                  <ul class="list-unstyled text-muted">
+                      <li><a href="https://twice.jype.com/">Website</a></li>
+                      <li><a href="https://twitter.com/JYPETWICE">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/twicetagram/">Instagram</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-10"> <!--TWICE social accounts Japanese-->
+                  <h5 class="text-white mb-3">Japan Socials</h5>
+                  <ul class="list-unstyled text-muted">
+                      <li><a href="https://www.twicejapan.com/">Website</a></li>
+                      <li><a href="https://twitter.com/JYPETWICE_JAPAN">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/jypetwice_japan/">Instagram</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-lg-4 col-md-10"> <!--Newsletter form with email-->
+                  <h5 class="text-white mb-3">Newsletter</h5>
+                  <p class="small text-muted">Add an email address and click the blue button to be updated on TWICE!</p>
+                  <form action="#">
+                      <div class="input-group mb-3">
+                          <input class="form-control" type="text" placeholder="Recipient's email" aria-label="Recipient's email" aria-describedby="button-addon2">
+                          <button class="btn btn-primary" id="button-addon2" type="button"><i class="glyphicon glyphicon-send"></i></button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+    </body>
+
+
+
+
+
+</html>

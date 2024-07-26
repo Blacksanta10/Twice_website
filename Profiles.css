@@ -1,0 +1,88 @@
+/** This is for the interactive member table **/
+body {
+  height: 125vh;
+    background-color: #EAD6CD;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#sideMenu {
+  width: 200px;
+  padding: 10px;
+  background-color: #eaeaea;
+}
+
+#mainContent {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#memberList {
+  list-style: none;
+  padding: 0;
+}
+
+#memberList li {
+  margin-bottom: 10px;
+}
+
+#memberInfoTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#memberInfoTable th,
+#memberInfoTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#memberInfoTable th {
+  background-color: #f2f2f2;
+}
+
+/**Other stuff **/
+
+/** ALL FOR FOOTER**/
+footer{
+  text-align:left;
+  padding: 3px;
+  background-color:#24262b;
+  color: white;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 10px 25px 25px 15px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.foot-container{
+  width: 25%;
+  padding: 0 15px;
+}

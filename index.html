@@ -1,0 +1,216 @@
+<!DOCTYPE html> <!--The homepage with navigation menu and general content-->
+<html>
+    <head> 
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--reponse in mobile devices-->
+        <title>TWICEpop</title>
+        <link rel="stylesheet" href="Style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+          .backg{
+            background-image: url("Images/background-phot-twice.jpg");
+          }
+        </style>
+    </head>
+
+    <body>
+       
+        <!--NavBar-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">TWICE</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Profiles.html">Members</a></li>
+                <li><a href="DIsco.html">Discography</a></li>
+                <li><a href="Tour.html">Tours</a></li>
+                <li><a href="Awards.html">Awards</a></li>
+              </ul>
+            </div>
+          </nav>
+      
+          <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:50px">ONCE'S PRIDE</h1>
+              <h3>TWICE</h3>
+          
+            </div>
+          </div>
+
+
+      <div class="container">
+        
+        <div class="row"> 
+          <div class="col-lg-12">
+          <u><h1 class="front-text"> Meet TWICE! </h1></u>
+            <img id="group" src="Images/Ready_To_Be_Twice_Concept_Photo_2.webp" alt="Twice group photo"/>
+            <p class="front-text"> TWICE is a South korean pop group made of 9 members: <strong>Jihyo, Nayeon, Jeongyeon, Momo, Mina, Sana, Dahyun, Chaeyoung, and Tzuyu</strong>.<br> 
+            TWICE debuted in Oct, 2015 through a survival show under JYP entertainment. TWICE is known for their catchy and upbeat pop music. TWICE performances are very energenic. </p>
+            <p class="front-text">TWICE has gained immense popularity in international countries. TWICE's dedicated fanbase is refered to as "ONCE"</p>
+          </div>
+        </div> 
+      </div>
+
+      <div class="container">
+        <h2>TWICE on tour!!</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="Images/TWICELIGHTSinLA_002-900x600.jpg" alt="Los Angeles" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>TWICElights in LA 2019!</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="Images/TWICE-tokyo.jpg" alt="Tokyo" style="width:100%;">
+              <div class="carousel-caption" style="color:gainsboro;">
+                <h3>Tokyo</h3>
+                <p>Ready to be Tour in Tokyo!</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="Images/TWICE-manilla.jpg" alt="Manilla, Philippines" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Manilla</h3>
+                <p>TWICElights tour in Philippines</p>
+              </div>
+            </div>
+        
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+      <!--CREATING MODAL FOR MORE INFO-->
+      <!-------------------------------->
+      <h2>Learn More...</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Click Here!</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Additional information for TWICEpop</h2>
+            </div>
+            <div class="modal-body">
+              <p><a href="about.html">Learn about the developer!</a></p>
+              <p><a href="catalog.html">Learn about the CandyBong Products!</a></p>
+              <p><a href="references.html">These references helped build this website!!</a></p>
+            </div>
+            <div class="modal-footer">
+              <h3>TWICE!!!!</h3>
+            </div>
+          </div>
+
+          <!--JAVASCRIPT FOR MODAL-->
+          <!------------------------>
+          <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+        </div>
+
+
+        <hr class="solid">
+
+      
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+      <div class="container py-4">
+
+          <div class="row gy-4 gx-5">
+              <div class="col-lg-4 col-md-10">
+                  <h5 class="h1 text-white">TWICEpop</h5>
+                  <p class="small text-muted">We provide information about the K-pop group TWICE.</p>
+                  <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">TWICEpop</a></p>
+              </div>
+              <div class="col-lg-2 col-md-10"> <!--TWICE social accounts Korean-->
+                  <h5 class="text-white mb-3">Korean Socials</h5>
+                  <ul class="list-unstyled text-muted">
+                      <li><a href="https://twice.jype.com/">Website</a></li>
+                      <li><a href="https://twitter.com/JYPETWICE">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/twicetagram/">Instagram</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-10"> <!--TWICE social accounts Japanese-->
+                  <h5 class="text-white mb-3">Japan Socials</h5>
+                  <ul class="list-unstyled text-muted">
+                      <li><a href="https://www.twicejapan.com/">Website</a></li>
+                      <li><a href="https://twitter.com/JYPETWICE_JAPAN">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/jypetwice_japan/">Instagram</a></li>
+                      <!-- <li><a href="#">FAQ</a></li> -->
+                  </ul>
+              </div>
+              <div class="col-lg-4 col-md-10"> <!--Newsletter form with email-->
+                  <h5 class="text-white mb-3">Newsletter</h5>
+                  <p class="small text-muted">Add an email address and click the blue button to be updated on TWICE!</p>
+                  <form action="#">
+                      <div class="input-group mb-3">
+                          <input class="form-control" type="text" placeholder="Recipient's email" aria-label="Recipient's email" aria-describedby="button-addon2">
+                          <button class="btn btn-primary" id="button-addon2" type="button"><i class="glyphicon glyphicon-send"></i></button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
+    </body>
+
+</html>
